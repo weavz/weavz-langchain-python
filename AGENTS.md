@@ -1,0 +1,4 @@
+- Use `MultiServerMCPClient` from `langchain-mcp-adapters`; inspect advertised tools before agent use.
+- Its stateless calls are adapter-managed; do not claim a persistent MCP session.
+- Fixture tests are local synthetic proof, not live Weavz or model proof.
+- Do not commit credentials.
