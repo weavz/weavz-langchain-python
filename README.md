@@ -1,4 +1,21 @@
-# LangChain + Weavz MCP
+# LangChain (Python) MCP integration examples with Weavz
+
+<!-- weavz:discovery:start -->
+
+Connect LangChain (Python) to Slack, Gmail, Notion and GitHub through a remote Weavz Model Context Protocol (MCP) server. Use the native MCP adapter, then try the app setup recipes with your configured connections.
+
+App setup recipes:
+
+- [Slack MCP with LangChain Python](docs/app-recipes.md#slack-mcp-with-langchain-python)
+- [Gmail MCP with LangChain Python](docs/app-recipes.md#gmail-mcp-with-langchain-python)
+- [Notion MCP with LangChain Python](docs/app-recipes.md#notion-mcp-with-langchain-python)
+- [GitHub MCP with LangChain Python](docs/app-recipes.md#github-mcp-with-langchain-python)
+
+The framework consumes app tools from your configured Weavz MCP server. App recipes require your own app connections; automated checks use synthetic records.
+
+[MCP app and framework directory](https://github.com/weavz/mcp-examples/blob/main/docs/integrations.md) · [All examples](https://github.com/weavz/mcp-examples) · [Weavz MCP guide](https://weavz.io/docs/guides/agent-framework-examples)
+
+<!-- weavz:discovery:end -->
 
 Uses `langchain-mcp-adapters` to expose the selected Weavz server's tools as LangChain tools. Tool Mode/Code Mode are configured server-side; the local `--mode` flag validates the expected names and does not switch a live server.
 
